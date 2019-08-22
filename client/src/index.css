@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -60,8 +61,40 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  cursor: pointer;
+}
+.update-button {
+  position: absolute;
+  top: 70px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  color: black;
+  cursor: pointer;
+}
+
+.delete-button {
+  position: absolute;
+  top: 120px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: red;
+  color: black;
+  cursor: pointer;
 }
 .save-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.update-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.delete-button:hover {
   background-color: green;
   color: white;
 }
