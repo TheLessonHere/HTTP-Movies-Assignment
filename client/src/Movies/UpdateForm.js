@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 import { ButtonContainer } from "../styled-components/Button";
 import axios from "axios";
 
-const MovieUpdate = props => {
+const UpdateForm = props => {
   const [update, setUpdate] = useState({
     id: props.match.params.id,
     title: "",
@@ -103,4 +103,4 @@ const MovieUpdate = props => {
   );
 };
 
-export default withRouter(MovieUpdate);
+export default withRouter(UpdateForm);
